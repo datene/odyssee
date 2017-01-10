@@ -10,7 +10,7 @@
   <div class="nav-items">
    {% for nav-item in site.navigation_items %}
    <div class="nav-item">
-    <a href="{{ nav-item.last }}">{{ nav-item.first }}</a>
+    <a href="{{ site.baseurl  }}{{ nav-item.last }}">{{ nav-item.first }}</a>
     <div class="underline-animation"></div>
   </div>
   {% endfor %}
