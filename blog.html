@@ -1,0 +1,20 @@
+---
+layout: default
+title: Blog
+---
+
+<div class="wrapper">
+
+  <h2>
+    Blog
+  </h2>
+
+  {% for post in site.posts %}
+  <div class="blog-item">
+    <blockquote class="embedly-card" data-card-key="84843c40c81245f1909d146a5b82c798" data-card-type="article-full"><h4><a href="{{post.outside_url}}">{{ post.title }}</a></h4><p>{{ post.post_description }}</p></blockquote>
+    <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+  </div>
+  {% endfor %}
+
+</div>
+

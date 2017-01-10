@@ -1,23 +1,32 @@
 ---
 layout: default
+title: Home
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class="introduction">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-lg-6">
+        <div class="left">
+          <!-- This contains the animation -->
+        </div>
+      </div>
+      <div class="col-xs-12 col-lg-6">
+        <div class="right">
+          <h1>
+            We believe everyone is <span>creative</span>.
+          </h1>
+          <p>
+            And that creativity is more than just fun. It enables new perspectives, that challenge and change current ways of working. This is necessary to develop and innovate, personally as well as in a team.
+          </p>
+          <p>
+            We also believe that work is about people. And that people are sometimes forgotten, because often, what seems more important than how. Our experience is that this can, and should be different.
+          </p>
+          <p>
+            We are on a mission to change the world of work, creatively. --
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

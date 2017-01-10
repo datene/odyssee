@@ -1,0 +1,28 @@
+.contact-form {
+  h3 {
+    margin: 40px 0px;
+  }
+  span {
+    color: $brand-color;
+  }
+  max-width: 500px;
+  margin: 0 auto;
+  form {
+    .left {
+      display: flex;
+      flex-direction: column;
+    }
+    .right {
+      min-height: 100px;
+      display: flex;
+      flex-direction: column;
+      .text-field {
+        flex: 1 0 auto;
+        textarea {
+          height: 100px;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.footer {
+  width: 100vw;
+  background-color: white;
+  border-top: 1px solid $brand-gray;
+  margin-top: 50px;
+
+  a {
+    transition: color 200ms ease;
+    color: $brand-gray;
+    text-decoration: none;
+    &:hover {
+      color: $brand-color;
+    }
+  }
+  .left {
+    margin: 20px auto;
+    width: 200px;
+    .logo {
+      h4 {
+        font-family: Heebo;
+        font-weight: 400;
+        color: $brand-gray;
+      }
+      span {
+        font-weight: 700;
+        color: #333333;
+      }
+    }
+    ul {
+      list-style: none;
+      li {
+        margin: 5px;
+      }
+    }
+  }
+
+  .right {
+    margin: 40px auto;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+}

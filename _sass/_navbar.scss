@@ -1,0 +1,51 @@
+.navbar {
+  font-family: $base-font-family;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  a {
+    text-decoration: none;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h2 {
+      font-family: Heebo;
+      font-weight: 400;
+      color: $brand-gray;
+    }
+    span {
+      font-weight: 700;
+      color: #333333;
+    }
+    img {
+      width: 125px;
+    }
+  }
+  .nav-items {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid gray;
+    padding: 20px;
+    .nav-item {
+      &:hover .underline-animation {
+        width: 100%;
+      }
+      a {
+        color: $text-color;
+        text-decoration: none;
+      }
+      .underline-animation {
+        width: 0px;
+        border-bottom: 1px solid gray;
+        transition: width 200ms linear;
+      }
+    }
+  }
+}

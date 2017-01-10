@@ -1,0 +1,29 @@
+.about {
+  .left {
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+  }
+  .right {
+    margin: 0px 20px;
+    span {
+      color: $brand-color;
+    }
+    p {
+      font-size: 12pt;
+      line-height: 28px;
+    }
+    h3 {
+      margin-top: 0px;
+    }
+
+  }
+}
+
+.gif-item {
+  margin: 20px 0px;
+  height: 100px;
+  background-size: cover;
+  background-position: center center;
+  filter: grayscale(100%);
+}

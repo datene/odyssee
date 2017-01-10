@@ -1,0 +1,16 @@
+.btn {
+  border: none;
+  border-radius: 2px;
+}
+
+.btn-default {
+  background-color: $brand-color;
+  color: white;
+  opacity: 0.8;
+  transition: opacity 200ms ease;
+  &:hover {
+    opacity: 1.0;
+    background-color: $brand-color;
+    color: white;
+  }
+}
