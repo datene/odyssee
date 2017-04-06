@@ -1,7 +1,7 @@
 .footer {
   width: 100vw;
   background-color: white;
-  border-top: 1px solid $brand-gray;
+  border-top: 1px solid #e6e6e6;
   margin-top: 50px;
 
   a {
@@ -16,15 +16,7 @@
     margin: 20px auto;
     width: 200px;
     .logo {
-      h4 {
-        font-family: Heebo;
-        font-weight: 400;
-        color: $brand-gray;
-      }
-      span {
-        font-weight: 700;
-        color: #333333;
-      }
+      height: 45px;
     }
     ul {
       list-style: none;

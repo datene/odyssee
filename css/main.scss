@@ -15,12 +15,11 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$brand-color: #2eb7ab;
+$brand-color: #6785c1;
 $brand-gray: #7b7b7b;
 
 $text-color:       #333333;
 $background-color: #fdfdfd;
-$brand-color:      #2eb7ab;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -39,4 +38,17 @@ $on-laptop:        800px;
 @import "blog";
 @import "contact";
 @import "button";
+@import "avatar";
+@import "help";
 
+.text-block {
+  line-height: 1.7;
+}
+
+.odyssee-link {
+  color: $brand-color;
+  &:hover {
+    text-decoration: none;
+    color: $brand-color;
+  }
+}

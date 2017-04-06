@@ -1,0 +1,9 @@
+.help-item {
+  height: 350px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  p {
+    line-height: 1.7;
+  }
+}

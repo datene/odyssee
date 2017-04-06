@@ -1,16 +1,15 @@
-<div class="navbar">
-<a href="{{ site.url  }}{{ site.baseurl  }}">
+<div class="black-navbar">
+  <a href="{{ site.url  }}{{ site.baseurl  }}">
     <div class="logo">
-      <img src="{{ site.url  }}{{ site.baseurl  }}/images/logo.png" alt="Unfold logo">
-      <h2>
-        we <span>unfold</span> it.
-      </h2>
+      <img src="{{ site.url  }}{{ site.baseurl  }}/images/logo.png" alt="Odyssee logo">
     </div>
   </a>
+</div>
+<div class="white-navbar">
   <div class="nav-items">
    {% for nav-item in site.navigation_items %}
    <div class="nav-item">
-    <a href="{{ site.baseurl  }}{{ nav-item.last }}">{{ nav-item.first }}</a>
+    <a href="{{ site.url  }}{{ site.baseurl  }}{{ nav-item.last }}">{{ nav-item.first }}</a>
     <div class="underline-animation"></div>
   </div>
   {% endfor %}

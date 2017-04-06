@@ -13,29 +13,36 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: we unfold it
+title: Odyssee Productions
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "/unfold" # the subpath of your site, e.g. /blog
-url: "https://unless-io.github.io" # the base hostname & protocol for your site
+  Open Collective gathering journalists, graphic designers, cinematographers and musicians, 
+  producing social & cultural documentaries, crowdsourcing its info-gathering in order to 
+  provide raw & unfiltered content.
+# CHANGE THIS WHEN DEPLOYING 
+baseurl: "/" # the subpath of your site, e.g. /blog
+# /odyssee    FOR PRODUCTION
+# /           FOR DEVELOPMENT
 
-email: "info@weunfold.it"
-phone: "+31 6 578 417 83"
-facebook: "http://facebook.com"
-pinterest: "http://pinterest.com"
-twitter: "http://twitter.com"
-location: "Amsterdam, Netherlands"
+url: "http://localhost:4000" # the base hostname & protocol for your site
+# https://unless-io.github.io     FOR PRODUCTION 
+# http://localhost:4000           FOR DEVELOPMENT
+
+email: "hi@odysseeproduction.com"
+phone: "+32.494/06.77.55"
+facebook: "https://www.facebook.com/odysseeproduction"
+instagram: "https://www.instagram.com/odysseeprod/"
+location: "Brussels, Belgium"
 
 collections:
-- gifs
+- team_members
 
 # Build settings
 markdown: kramdown
 
 navigation_items:
   home: /
-  about: /about
-  blog: /blog
-  contact: /contact
+  project: project
+  team: team
+  blog: blog
+  help: help
+  contact: contact

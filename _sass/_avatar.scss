@@ -1,0 +1,18 @@
+.team-member {
+  width: 100%;
+  margin: 20px 0;
+  .avatar {
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-position: top center;
+  }
+  .member-info {
+    position: relative;
+    .linkedin {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+    }
+  }
+}

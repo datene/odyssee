@@ -1,10 +1,11 @@
-.navbar {
+.black-navbar {
   font-family: $base-font-family;
   width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: black;
   a {
     text-decoration: none;
   }
@@ -26,13 +27,17 @@
       width: 125px;
     }
   }
+}
+
+.white-navbar {
   .nav-items {
-    width: 250px;
+    margin: 0 auto;
+    width: 400px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-top: 1px solid gray;
     padding: 20px;
+    letter-spacing: 1.5;
     .nav-item {
       &:hover .underline-animation {
         width: 100%;

@@ -9,7 +9,7 @@ permalink: /contact/
     <h3>
     Drop us a line, will you? We'd <span>appreciate</span> it.
     </h3>
-    <form action="https://formspree.io/lars@unless.io"
+    <form action="https://formspree.io/{{ site.email }}"
     method="POST">
     <div class="row">
       <div class="col-xs-12 col-lg-6">
