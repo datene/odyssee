@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   producing social & cultural documentaries, crowdsourcing its info-gathering in order to 
   provide raw & unfiltered content.
 # CHANGE THIS WHEN DEPLOYING 
-baseurl: "/odyssee" # the subpath of your site, e.g. /blog
+baseurl: "/odyssee/" # the subpath of your site, e.g. /blog
 # /odyssee    FOR PRODUCTION
 # /           FOR DEVELOPMENT
 
@@ -41,8 +41,8 @@ markdown: kramdown
 
 navigation_items:
   home: /
-  project: /project
-  team: /team
-  blog: /blog
-  help: /help
-  contact: /contact
+  project: project
+  team: team
+  blog: blog
+  help: help
+  contact: contact
