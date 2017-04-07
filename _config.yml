@@ -23,7 +23,7 @@ baseurl: "/odyssee/" # the subpath of your site, e.g. /blog
 # /odyssee    FOR PRODUCTION
 # /           FOR DEVELOPMENT
 
-url: "https://datene.github.io" # the base hostname & protocol for your site
+url: "https://unless-io.github.io" # the base hostname & protocol for your site
 # https://unless-io.github.io     FOR PRODUCTION 
 # http://localhost:4000           FOR DEVELOPMENT
 
