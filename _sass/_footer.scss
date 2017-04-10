@@ -32,5 +32,17 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-direction: column;
+    height: 130px;
+    .social-icons {
+      display: flex;
+      justify-content: space-between;
+      width: 100px;
+    }
+    .credit {
+      img {
+        width: 50px;
+      }
+    }
   }
 }
