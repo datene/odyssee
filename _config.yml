@@ -44,5 +44,5 @@ navigation_items:
   project: project
   team: team
   blog: blog
-  help: help
+  "help us": help
   contact: contact
