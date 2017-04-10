@@ -41,6 +41,9 @@ permalink: /help/
   </div>
   <div class="row">
     <div class="col-xs-12 col-lg-4 col-lg-offset-4">
+    <h3>
+      Helping us
+    </h3>
       <p>
         Our project aim at be inclusive and participative. We will reward all inputs we use from any contributing member of our community. The reward will be either financial, commercial, or honorific and will be decided on a case to case basis.
       </p>
