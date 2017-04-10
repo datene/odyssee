@@ -4,16 +4,6 @@ title: Help
 permalink: /help/
 ---
 <div class="container">
-<div class="row">
-  <div class="col-xs-12 col-lg-4 col-lg-offset-4">
-    <p>
-      Our project aim at be inclusive and participative. We will reward all inputs we use from any contributing member of our community. The reward will be either financial, commercial, or honorific and will be decided on a case to case basis.
-    </p>
-    <a href="https://docs.google.com/document/d/1ImulktApLuYfmgs_aAUE3rBtHCaL8r0qTYiJY0wKcmw/edit?usp=sharing">
-      Read more here
-    </a>
-  </div>
-</div>
   <div class="row">
     <div class="col-xs-12 col-lg-4">
       <div class="help-item">
@@ -47,6 +37,16 @@ permalink: /help/
         </p>
         <a href="https://goo.gl/forms/WEThoO6djQCeqLJQ2" class="btn-odyssey">I HAVE KNOWLEDGE</a>
       </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-lg-4 col-lg-offset-4">
+      <p>
+        Our project aim at be inclusive and participative. We will reward all inputs we use from any contributing member of our community. The reward will be either financial, commercial, or honorific and will be decided on a case to case basis.
+      </p>
+      <a href="https://docs.google.com/document/d/1ImulktApLuYfmgs_aAUE3rBtHCaL8r0qTYiJY0wKcmw/edit?usp=sharing">
+        Read more here
+      </a>
     </div>
   </div>
 </div>
