@@ -40,6 +40,43 @@ collections:
 # Build settings
 markdown: kramdown
 
+meta:
+  geo_placename: Brussels
+  geo_position: "50.8386162;4.2233225"
+  geo_region: BE
+
+  name: Odyssee Production
+  description: 
+    Open Collective gathering journalists, graphic designers, cinematographers and musicians, 
+    producing social & cultural documentaries, crowdsourcing its info-gathering in order to 
+    provide raw & unfiltered content.
+  image: "http://odysseeproduction.com/images/animation.gif"
+
+  fb_site_name: Odyssee Production
+  fb_title: Odyssee Production - Open Collective
+  fb_description: 
+    Open Collective gathering journalists, graphic designers, cinematographers and musicians, 
+    producing social & cultural documentaries, crowdsourcing its info-gathering in order to 
+    provide raw & unfiltered content.
+  fb_image: "http://odysseeproduction.com/images/animation.gif"
+  fb_type: Website
+  fb_url: http://odysseeproduction.com/
+
+  google_name: Odyssee Production
+  google_description: 
+    Open Collective gathering journalists, graphic designers, cinematographers and musicians, 
+    producing social & cultural documentaries, crowdsourcing its info-gathering in order to 
+    provide raw & unfiltered content.
+  google_image: "http://odysseeproduction.com/images/animation.gif"
+
+  twitter_card_type: summary_large_image
+  twitter_title: Odyssee Production - Open Collective
+  twitter_description: 
+    Open Collective gathering journalists, graphic designers, cinematographers and musicians, 
+    producing social & cultural documentaries, crowdsourcing its info-gathering in order to 
+    provide raw & unfiltered content.
+
+
 navigation_items:
   home: /
   project: project
