@@ -196,7 +196,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages (= 134)
   jekyll
-  jekyll-seo-tag
+  jekyll-github-metadata
   json
 
 RUBY VERSION
