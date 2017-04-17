@@ -2,6 +2,8 @@
 layout: default
 title: Contact
 permalink: /contact/
+description: Contact us
+picture: /images/animation.gif
 ---
 
 <div class="container">

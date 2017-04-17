@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Team
+description: Meet the team
 permalink: /team/
+picture: /images/animation.gif
 ---
 
 <div class="container">
