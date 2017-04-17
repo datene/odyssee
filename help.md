@@ -7,6 +7,11 @@ picture: /images/animation.gif
 ---
 <div class="container">
   <div class="row">
+    <div class="col-xs-12 col-lg-12">
+      <p>
+        Due to the enthusiasm and support received so far, we have set up a system that will help to gather and structure the 5 types of helps from our community. 
+      </p>
+    </div>
     <div class="col-xs-12 col-lg-4">
       <div class="help-item">
         <a href="https://goo.gl/forms/KrF76rTUqlX6dcJw2" class="btn-odyssey">I HAVE TIME & SKILLS</a>
@@ -39,7 +44,7 @@ picture: /images/animation.gif
           VACANT POSITION
         </a>
         <p>
-        Our project aim at be inclusive and participative. We will reward all inputs we use from any contributing member of our community. The reward can be financial, commercial, or honorific, depending of your inputs and your wills. Help us by being an active member of our community. Check down here the key people we are looking for!
+          Our project aim at being inclusive and participative. We will reward all inputs we use from any contributing member of our community. The reward can be financial, commercial, or honorific, depending of your inputs and your wills. Help us by being an active member of our community. Check down here the key people we are looking for!
         </p>
       </div>
     </div>
@@ -47,19 +52,19 @@ picture: /images/animation.gif
   <div class="row">
     <div class="col-xs-12 col-lg-4 col-lg-offset-4">
       <div class="help-item">
-        <a href="https://docs.google.com/document/d/1ImulktApLuYfmgs_aAUE3rBtHCaL8r0qTYiJY0wKcmw/edit?usp=sharing" class="btn-odyssey">
+        <a href="https://docs.google.com/document/d/1H64OZ_FEoifrX5KaP3xr6Gmwva9uKCGWoOEub_FCskc/edit?usp=sharing" class="btn-odyssey">
           DONATION
         </a>
         <p>
-          Do you also believe that culture shaped our identity? That art is crucial to the well being of our civilisation? Do you share our ideal of a united Europe? Maybe you are grateful for the heritage western civilisation received from Greece and you hope to help them in their current struggle? Maybe you just believe that the dynamic there is worth being studied. Be part of our community, help us doing it well.
-        </p>
-        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-          <input type="hidden" name="cmd" value="_s-xclick">
-          <input type="hidden" name="hosted_button_id" value="LBC3G2BHXUAES">
-          <input type="image" src="https://www.paypalobjects.com/en_US/BE/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-          <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-        </form>
-      </div>
+        Do you also believe that culture shaped our identity? Do you share our ideal of a united Europe? Maybe you are grateful for the heritage western civilisation received from Greece? Maybe you just believe that the dynamic there is worth being studied? Be part of our community, help us doing it well.
+       </p>
+       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="LBC3G2BHXUAES">
+        <input type="image" src="https://www.paypalobjects.com/en_US/BE/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+      </form>
     </div>
   </div>
+</div>
 </div>

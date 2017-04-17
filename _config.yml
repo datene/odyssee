@@ -78,7 +78,6 @@ meta:
 
 
 navigation_items:
-  home: /
   project: project
   team: team
   blog: blog
