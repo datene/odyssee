@@ -7,10 +7,12 @@ picture: /images/animation.gif
 ---
 <div class="container">
   <div class="row">
-    <div class="col-xs-12 col-lg-12">
+    <div class="col-xs-12 col-lg-8 col-lg-offset-2">
+    <div class="help-intro">
       <p>
         Due to the enthusiasm and support received so far, we have set up a system that will help to gather and structure the 5 types of helps from our community. 
       </p>
+      </div>
     </div>
     <div class="col-xs-12 col-lg-4">
       <div class="help-item">
@@ -38,7 +40,7 @@ picture: /images/animation.gif
     </div>
   </div>
   <div class="row">
-    <div class="col-xs-12 col-lg-4 col-lg-offset-4">
+    <div class="col-xs-12 col-lg-4 col-lg-offset-2">
       <div class="help-item">
         <a href="https://docs.google.com/document/d/1ImulktApLuYfmgs_aAUE3rBtHCaL8r0qTYiJY0wKcmw/edit?usp=sharing" class="btn-odyssey">
           VACANT POSITION
@@ -48,9 +50,7 @@ picture: /images/animation.gif
         </p>
       </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="col-xs-12 col-lg-4 col-lg-offset-4">
+    <div class="col-xs-12 col-lg-4">
       <div class="help-item">
         <a href="https://docs.google.com/document/d/1H64OZ_FEoifrX5KaP3xr6Gmwva9uKCGWoOEub_FCskc/edit?usp=sharing" class="btn-odyssey">
           DONATION
