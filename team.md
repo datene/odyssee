@@ -42,7 +42,7 @@ picture: /images/animation.gif
     {% endfor %}
   </div>
   <div class="row">
-  <h3>
+  <h3 class="text-center">
     Contributors
   </h3>
     {% for member in site.members %}
