@@ -41,6 +41,32 @@ picture: /images/animation.gif
     </div>
     {% endfor %}
   </div>
+  <div class="row">
+  <h3>
+    Contributors
+  </h3>
+    {% for member in site.members %}
+    <div class="col-xs-6 col-lg-3">
+      <div class="team-member">
+        <div class="avatar" style="background-image:url('{{ site.url  }}{{ site.baseurl  }}{{ member.avatar }}" alt="{{ member.name }}');"></div>
+        <div class="member-info">
+          <h3>
+            {{ member.name }}
+          </h3>
+          <h4>
+            {{ member.title }}
+          </h4>
+          <p>
+            <strong>
+              Contribution:
+            </strong>
+            {{ member.contribution }}
+          </p>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
 </div>
 
 

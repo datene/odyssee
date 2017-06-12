@@ -35,7 +35,8 @@ location: "Brussels, Belgium"
 logo: "http://odysseeproduction.com/images/logo_rond.png"
 
 collections:
-- team_members
+  - members
+  - team_members
 
 # Build settings
 markdown: kramdown
