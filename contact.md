@@ -11,6 +11,9 @@ picture: /images/animation.gif
     <h3>
     Drop us a line, will you? We'd <span>appreciate</span> it.
     </h3>
+    <h4>
+      Or give us a call at: {{ site.phone }}
+    </h4>
     <form action="https://formspree.io/{{ site.email }}"
     method="POST">
     <div class="row">
